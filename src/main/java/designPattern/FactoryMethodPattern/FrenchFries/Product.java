@@ -1,4 +1,4 @@
-package designPattern.FactoryMethodPattern;
+package designPattern.FactoryMethodPattern.FrenchFries;
 
 public interface Product {
     //敘述自己是什麼商品

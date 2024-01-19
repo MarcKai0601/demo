@@ -1,4 +1,4 @@
-package designPattern.FactoryMethodPattern;
+package designPattern.FactoryMethodPattern.FrenchFries;
 
 public class FrenchFriesFactory implements Factory{
 
