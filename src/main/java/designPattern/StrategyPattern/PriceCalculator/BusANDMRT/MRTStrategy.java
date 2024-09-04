@@ -1,7 +1,5 @@
 package designPattern.StrategyPattern.PriceCalculator.BusANDMRT;
 
-import designPattern.StrategyPattern.Calculator.IStrategy.IStrategy;
-
 public class MRTStrategy implements BusANDMRT {
 
     @Override

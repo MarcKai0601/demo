@@ -1,6 +1,5 @@
 package designPattern.StrategyPattern.PriceCalculator.priceCalculator;
 
-import designPattern.StrategyPattern.Calculator.IStrategy.IStrategy;
 import designPattern.StrategyPattern.PriceCalculator.BusANDMRT.BusANDMRT;
 import designPattern.StrategyPattern.PriceCalculator.BusANDMRT.BusStrategy;
 import designPattern.StrategyPattern.PriceCalculator.BusANDMRT.MRTStrategy;
