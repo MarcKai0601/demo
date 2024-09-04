@@ -24,16 +24,16 @@ public class Calculator {
     public Object setStrategy(DoType doType) {
         switch (doType){
             case ADD:
-                this.strategy = new add();
+                this.strategy = new IStrategy.add();
                 break;
             case MINUS:
-                this.strategy = new minus();
+                this.strategy = new IStrategy.minus();
                 break;
             case DIVIDE:
-                this.strategy = new divide();
+                this.strategy = new IStrategy.divide();
                 break;
             case MULTYPLY:
-                this.strategy = new multyply();
+                this.strategy = new IStrategy.multyply();
                 break;
         }
         return null;
