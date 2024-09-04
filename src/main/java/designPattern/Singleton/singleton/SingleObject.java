@@ -1,6 +1,7 @@
 package designPattern.Singleton.singleton;
 
 // 積極模式or餓漢模式
+// 積極模式在宣告靜態物件的時候就已經初始化
 
 import lombok.Getter;
 

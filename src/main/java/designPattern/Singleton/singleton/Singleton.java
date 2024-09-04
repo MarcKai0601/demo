@@ -2,7 +2,11 @@ package designPattern.Singleton.singleton;
 
 
 //懶散模式(Lazy)
+//懶散模式(Lazy)在呼叫getInstance時才進行初始化
+//每次都需要進行同步，效率會很很低
+
 public class Singleton{
+
     private static Singleton instance;
     //私有的建構式讓別人不能創造
     Singleton (){}
@@ -18,4 +22,3 @@ public class Singleton{
     }
 
 }
-
